@@ -1,0 +1,61 @@
+button, p, .score {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.board > h1 {
+    font-family: Verdana, sans-serif;
+    color: #eeeeee;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 35.89px;
+    text-align: center; 
+    margin-bottom: 21px;
+}
+
+
+
+ .score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    font-size: 90px;
+    border-radius: 5px;
+    color: #F94F6D;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 26px;
+ }
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 155px;
+    height: 45px;
+}
+
+button {
+    border: solid #9AABD8 2px;
+    background-color: #1B244A;
+    width: 45px;
+    height: 45px;
+    color: #9AABD8;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 5px;
+    padding-top: 3px;
+}
+
+button:hover {
+    cursor: pointer;
+}
