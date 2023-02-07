@@ -1,8 +1,8 @@
 import '../css/App.css'
 import Board from './Board'
-import React, {useState} from 'react'
 
-function App(props) {
+
+function App() {
   
  
   return (
